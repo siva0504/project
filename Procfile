@@ -1,1 +1,2 @@
-web: gunicorn insert:app
+web: gunicorn app_url:app
+worker: gunicorn insert.py
