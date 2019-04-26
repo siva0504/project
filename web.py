@@ -1,6 +1,6 @@
 from flask import Flask,request
 app = Flask(__name__)
-@app.route("/",methods=['POST'])
+@app.route('/')
 def index():
     return "hello world"
     
